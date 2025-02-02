@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "Name": "electronics",
+    "Image": "https://example.com/images/electronics.jpg",
+    "Description": "All kinds of electronic gadgets and devices.",
+    "TaxApplicability": true,
+    "Tax": 18,
+    "TaxType": "GST",
+    "Subcategories": [
+      {
+        "id": 101,
+     "Name": "Tablets",
+     "Image": "https://example.com/images/tablets.jpg",
+     "Description": "Portable tablets for work and entertainment.",
+     "TaxApplicability": true,
+     "Tax": 18,
+     "TaxType": "GST",
+     "items": [
+      {
+        "id": 1001,
+        "Name": "Smartphone",
+        "Image": "https://example.com/images/smartphone.jpg",
+        "Description": "A high-end smartphone with advanced features.",
+        "TaxApplicability": true,
+        "Tax": 18, 
+        "BaseAmount": 699.99,
+        "Discount": 50,
+        "TotalAmount": 649.99 
+      },
+      {
+        "id": 1002,
+        "Name": "Laptop",
+        "Image": "https://example.com/images/laptop.jpg",
+        "Description": "A powerful laptop suitable for gaming and work.",
+        "TaxApplicability": true,
+        "Tax": 18, 
+        "BaseAmount": 999.99,
+        "Discount": 100,
+        "TotalAmount": 899.99
+      }
+     ]
+     },
+     {
+      "id": 102,
+   "Name": "phone",
+   "Image": "https://example.com/images/tablets.jpg",
+   "Description": "Portable tablets for work and entertainment.",
+   "TaxApplicability": true,
+   "Tax": 18,
+   "TaxType": "GST"
+   }
+    ]
+  },
+  {
+    "id": 2,
+    "Name": "home",
+    "Image": "https://example.com/images/home-kitchen.jpg",
+    "Description": "Appliances, decor, and tools for your home and kitchen.",
+    "TaxApplicability": true,
+    "Tax": 8,
+    "TaxType": "Sales Tax",
+    "Subcategories": [
+      {
+        "id": 103,
+     "Name": "mobile",
+     "Image": "https://example.com/images/tablets.jpg",
+     "Description": "Portable tablets for work and entertainment.",
+     "TaxApplicability": true,
+     "Tax": 18,
+     "TaxType": "GST",
+     "items":[
+      {
+        "id": 1003,
+        "Name": "Laptop",
+        "Image": "https://example.com/images/laptop.jpg",
+        "Description": "A powerful laptop suitable for gaming and work.",
+        "TaxApplicability": true,
+        "Tax": 18, 
+        "BaseAmount": 999.99,
+        "Discount": 100,
+        "TotalAmount": 899.99
+      }
+     ]
+     },
+     {
+      "id": 104,
+   "Name": "mat",
+   "Image": "https://example.com/images/tablets.jpg",
+   "Description": "Portable tablets for work and entertainment.",
+   "TaxApplicability": true,
+   "Tax": 18,
+   "TaxType": "GST"
+   }
+    ]
+  },
+  {
+    "id": 3,
+    "Name": "sports",
+    "Image": "https://example.com/images/sports-outdoors.jpg",
+    "Description": "Gear and equipment for sports and outdoor activities.",
+    "TaxApplicability": false,
+    "Tax": 0,
+    "TaxType": "None",
+    "Subcategories": []
+  },
+  {
+    "id": 4,
+    "Name": "fashion",
+    "Image": "https://example.com/images/fashion.jpg",
+    "Description": "Trendy clothing, accessories, and footwear for all.",
+    "TaxApplicability": true,
+    "Tax": 12,
+    "TaxType": "VAT",
+    "Subcategories": []
+  },
+  {
+    "id": 5,
+    "Name": "books",
+    "Image": "https://example.com/images/books-stationery.jpg",
+    "Description": "Books, journals, and stationery supplies for work or school.",
+    "TaxApplicability": true,
+    "Tax": 5,
+    "TaxType": "Education Tax"
+  }
+]
