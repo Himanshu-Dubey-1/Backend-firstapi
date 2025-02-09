@@ -21,11 +21,11 @@ router.get("/category/:id" ,async (req, res) => {
     res.send(product)
 })
 
-router.post("/category" , (req, res)=> {
+router.post("/category" , async (req, res)=> {
 
     const category = new Category(req.body)
     try {
-        category.save()
+        await category.save()
         // const product = req.body;
         // category.push(product)
         res.send(category)
@@ -38,8 +38,8 @@ router.post("/category" , (req, res)=> {
 router.patch('/category/:id' ,async (req, res) => {
     const id = req.params.id;
     try {
-        const doc =await Category.findOneAndUpdate({_id:id}, req.body , {new: true})
-        res.send(doc)
+        const category =await Category.findOneAndUpdate({_id:id}, req.body , {new: true})
+        res.send(category)
     } catch (error) {
         res.send(error)
     }
